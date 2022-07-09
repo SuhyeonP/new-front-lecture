@@ -15,4 +15,4 @@ export function useInternalRouter() {
   }, [navigate]);
 }
 
-type RoutePath = '/rrn-check' | '/limit-check' | '/loan-setup' | '/confirmation' | '/complete';
+type RoutePath = string;
